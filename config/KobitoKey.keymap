@@ -12,6 +12,11 @@
             key-positions = <0 1>;
             bindings = <&kp ESC>;
         };
+
+        keychck {
+            bindings = <&kp TAB>;
+            key-positions = <5 6 39 30>;
+        };
     };
 
     keymap {
