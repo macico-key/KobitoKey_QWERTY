@@ -44,10 +44,10 @@
         layer2 {
             label = "FUNCTION";
             bindings = <
-&kp F1           &kp F2              &kp F3               &kp F4       &kp F5  &kp F6   &kp F7          &kp F8          &kp F9           &kp F10
-&kp F11          &kp F12             &trans               &kp LC(F4)   &trans  &trans   &kp HOME        &kp UP_ARROW    &kp END          &kp PAGE_UP
-&kp LS(LC(TAB))  &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp LC(TAB)  &trans  &trans   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN
-&trans           &trans              &trans               &trans       &trans  &kp DEL  &trans          &trans          &trans           &trans
+&kp F1          &kp F2           &kp F3              &kp F4       &kp F5       &kp F6         &kp F7          &kp F8          &kp F9           &kp F10
+&kp F11         &kp F12          &kp LC(F4)          &trans       &trans       &kp PAGE_UP    &kp HOME        &kp UP_ARROW    &kp END          &trans
+&kp LEFT_SHIFT  &kp LS(LC(TAB))  &kp LA(LEFT_ARROW)  &kp LC(TAB)  &trans       &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RSHIFT
+&kp LCTRL       &kp LG(LS(S))    &trans              &trans       &kp RG(TAB)  &kp DEL        &trans          &trans          &trans           &kp RCTRL
             >;
         };
 
