@@ -1,6 +1,7 @@
 #include <zephyr/dt-bindings/pinctrl/nrf-pinctrl.h>
 #include "kobitokey.dtsi"
 #include <input/processors.dtsi>
+#include <dt-bindings/zmk/keys.h>
 
 /* 列オフセット */
 &default_transform { col-offset = <5>; };
@@ -38,6 +39,18 @@
         evt-type = <INPUT_EV_REL>;
         x-input-code = <INPUT_REL_X>;
         y-input-code = <INPUT_REL_Y>;
+            arrows {
+                layers = <2>;
+                bindings =
+                    <&kp RIGHT_ARROW>,
+                    <&kp LEFT_ARROW>,
+                    <&kp UP_ARROW>,
+                    <&kp DOWN_ARROW>;
+        
+                tick = <10>;
+                wait-ms = <5>;
+                tap-ms = <5>;
+            };
     };
 };
 
