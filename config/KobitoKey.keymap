@@ -49,10 +49,10 @@
         layer2 {
             label = "FUNCTION";
             bindings = <
-&kp F1   &kp F2                  &kp F3                  &kp F4                   &kp F5                &kp F6         &kp F7          &kp F8          &kp F9           &kp F10
-&kp F11  &kp F12                 &kp LG(LA(UP_ARROW))    &trans                   &kp LC(LG(F))         &kp PAGE_UP    &kp HOME        &kp UP_ARROW    &kp END          &tog 4
-&trans   &kp LA(LG(LEFT_ARROW))  &kp LA(LG(DOWN_ARROW))  &kp LG(LA(RIGHT_ARROW))  &kp LG(LS(NUMBER_5))  &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&trans   &trans                  &trans                  &trans                   &trans                &trans         &trans          &trans          &trans           &trans
+&kp F1   &kp F2                  &kp F3                  &kp F4                   &kp F5                &kp F6  &kp F7          &kp F8          &kp F9           &kp F10
+&kp F11  &kp F12                 &kp LG(LA(UP_ARROW))    &kp LG(W)                &kp LC(UP_ARROW)      &trans  &kp HOME        &kp UP_ARROW    &kp END          &trans
+&trans   &kp LA(LG(LEFT_ARROW))  &kp LA(LG(DOWN_ARROW))  &kp LG(LA(RIGHT_ARROW))  &kp LG(LS(NUMBER_5))  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&trans   &trans                  &trans                  &trans                   &trans                &trans  &trans          &trans          &trans           &trans
             >;
         };
 
